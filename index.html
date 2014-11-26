@@ -1,102 +1,269 @@
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="./style.css" rel="stylesheet">
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">Brand</a>
-                </div>
-            </div>
-            <div class="navbar-header">
-            </div>
-        </nav>
-        <div class="container">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h1>CTA Coaching</h1>
-                    <p>
-                    The last step of the Salesforce Certified Technical Architect examination process - the board review - not only represents a big challenge even for the most experienced architects, it also has a <u>very low pass rate amongst Salesforce partners (25%</u> - as provided by SFDC during 'Seed-The partner workshop' in April 2013). Even though Salesforce provides a large set of reference material and a small set hypothetical case studies for practice, they do not provide much support beyond that.
-                    This coaching program has been tail-ordered to bridge this gap and to prepare candidates in the best possible way based on the following elements:
-                    <ul>
-                        <li>Candidate assessment</li>
-                        <li>Knowledge transfer through demos and presentations</li>
-                        <li>Theoretical exercises on board relevant topics</li>
-                        <li>Practical exercises in form of hypothetical case studies</li>
-                        <li>CTA clinic</li>
-                    </ul>
-                    </p>
-                    <p>
-                    It is especially valuable for independent contractors and freelancers or architects working for customers who don't have access to other Salesforce resources or fellow CTAs.
-                    </p>
-                    <h3>Format</h3>
-                    <p>The program is structured as a series of remote sessions (up to 1.5 hrs) that are held over the course of multiple weeks. In general the sessions are on a 1-to-1 basis.</p>
-                    <h3>Fees</h3>
-                    <p>
-                    For details about fees please get in touch
-                    <SCRIPT TYPE="text/javascript">
-                    emailE=('info@' + 'ctacoach.com')
-                    document.write('<A href="mailto:' + emailE + '">'+ emailE + '</a>')
-                    </SCRIPT>
-                    <br/>
-                    Fees can be partially refunded, if the candidate decides to quit the program based on the assessment result.
-                    </p>
-                    <section>
-                        
-                        <h3>Modules</h3>
-                        <span>
-                        <b>Assessment (1-to-1)</b><br/>
-                        <p>
-                        <i>Introduction to the program and student assessment through a hypothetical case study.</i><br/>
-                        Involves a review of your technical skills and experience with regards to what is expected for the student.
-                        </p>
-                        </span>
-                        <span>
-                        <b>Board Strategies & Best Practices</b><br/>
-                        <p>
-                        <i>Provide a detailed insight of the board and strategies.</i><br/>
-                        Students will learn what 'thinking on your feet' and other challenges mean and how they can address them effectively. Furthermore topics such as 'How to choose the right case study?' or 'How to respond to questions?' will be covered by this module. And we'll share best practices on preparation and presentation case studies incl. a 'solution design story template'
-                        </p>
-                        </span>
-                        <span>
-                        <b>Architecture Exercises</b><br/>
-                        <p>
-                        <i>Theoretical exercises to gain and harden in-depth technical knowledge.</i><br/>
-                        The student will receive assignments for which he will have to prepare material on questions and issues related to the following topics: Platform Architecture, Security, Integration, Governance and Testing.
-                        </p>
-                        </span>
-                        <span>
-                        <b>Hypothetical case studies 101</b><br/>
-                        <p>
-                        <i>Practical exercises for preparation, presentation and justification of solution design based hypothetical case studies.</i><br/>
-                        Simulations of the board review, in which students have 60min to prepare a solution design, followed by 25 min presentation and 25 min QA. Through the iterative approach of multiple exercises with practice and feedback, students will improve their skills and lay the foundation for the module's 201 and ultimately the board review.
-                        </p>
-                        </span>
-                        <span>
-                        <b>Hypothetical case studies 201</b><br/>
-                        <p>
-                        <i>Similar to 101, but case studies' complexity and length match the ones of the board‘s.</i><br/>
-                        As close as it gets to the hypothetical case study of the board. The student will have 75 min (native english speakers) or 105 min to prepare based on a large case study, followed by 30min presentation and 30min QA.
-                        </p>
-                        </span>
-                    </section>
-                    <h3>About the coach</h3>
-                    <p>
-                    My name is Sebastian Wagner and I am a Salesforce Certified Technical Architect with +7 years of experience in delivering enterprise applications across the globe as well as training and mentoring technical staff and consultants. I successfully passed the board review on the first attempt, thanks to intensive studying and practice, experience and the coaching and advise of two fellow CTAs. I have created the program to help candidates archiving the certification with the same methods I did.
-                    </p>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/img/favicon.ico">
+
+    <title>CTA Coach</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+    var coachEmail =('info@' + 'ctacoach.com')
+                    //emailE=('info@' + 'ctacoach.com')
+                    //document.write('<A href="mailto:' + coachEmail + '">'+ coachEmail + '</a>')
+                    // < /SCRIPT>
+    </script>
+  </head>
+
+  <body>
+
+    <div id="h">
+      <div class="logo">
+        <h1>Sebastian Wagner</h1>
+      </div><!--/logo-->
+      <div class="container centered">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1>Salesforce.com expertise at its best</h1>
+          </div>
+        </div><!--/row-->
+
+        <div class="row mt">
+          <div class="col-sm-4">
+            <i class="ion-ios7-monitor-outline"></i>
+            <h3>Consulting</h3>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <i class="ion-ios7-browsers-outline"></i>
+            <h3>Coaching</h3>
+          </div><!--/col-md-4-->
+
+          <div class="col-sm-4">
+            <i class="ion-ios7-copy-outline"></i>
+            <h3>About</h3>
+          </div><!--/col-md-4 -->
+          <!--
+          <div class="col-sm-4">
+            <i class="ion-ios7-copy-outline"></i>
+            <h3>Brand Identity</h3>
+          </div><!--/col-md-4 -->
+        
+        </div><!--/row-->
+      </div><!--/container-->
+    </div><!--H-->
+
+  <!-- CONSULTING -->
+    <div class="container ptb">
+      <div class="row">
+        <h2 class="centered mb">Consulting</h2>
+        <div class="col-md-12">
+        <p>
+<h3>Architecture</h3>
+<span class="p2"><b>Solution Design</b> - Maximized ROI and reduced risk through sophisticated solution design matching business requirements</span><br/>
+<span class="p2"><b>Project Delivery</b> -  Technical leadership and end-to-end support implementations</span><br/>
+<span class="p2"><b>Roadmaps and Strategy</b> - Support the business in defining roadmaps and strategies through thought leadership</span><br/>
+<h3>Governance</h3>
+<span class="p2"><b>Design Authority</b> - Preliminary objective review and advisory on solution designs to reduce project costs and risks</span><br/>
+<span class="p2"><b>Assessment</b> - Assessment of salesforce implementations in regards to quality, best practices, risk and optimizations.</span><br/>
+<h3>Practice Development</h3>
+<span class="p2"><b>Training & Best Practices</b> - Improved skills through technical training and best practice sessions</span><br/>
+<span class="p2"><b>Process Engineering</b> - Optimization of development and delivery processes</span><br/>
+        </p>
         </div>
-    </body>
+      </div><!--/row-->
+    </div><!-- /.container -->
+
+    <!-- COACHING -->
+    <div id="g">
+      <div class="container">
+        <div class="row centered">
+          <h2>CTA Coaching</h2>
+          <div class="col-md-8 col-md-offset-2">
+            <p>
+            The last step of the Salesforce Certified Technical Architect examination process - the board review - not only represents a big challenge even for the most experienced architects, it also has a <u>very low pass rate amongst Salesforce partners (25%</u> - as provided by SFDC during 'Seed-The partner workshop' in April 2013). Even though Salesforce provides a large set of reference material and a small set hypothetical case studies for practice, they do not provide much support beyond that.
+            This coaching program has been tail-ordered to bridge this gap and to prepare candidates in the best possible way based on the following elements:
+            <ul>
+                <li>Candidate assessment</li>
+                <li>Knowledge transfer through demos and presentations</li>
+                <li>Theoretical exercises on board relevant topics</li>
+                <li>Practical exercises in form of hypothetical case studies</li>
+                <li>CTA clinic</li>
+            </ul>
+            </p>
+            <p>
+            It is especially valuable for independent contractors and freelancers or architects working for customers who don't have access to other Salesforce resources or fellow CTAs.
+            </p>
+
+            <p>The program is structured as a series of remote sessions (up to 1.5 hrs) that are held over the course of multiple weeks. The sessions are generally on a <b>1-to-1 basis</b> to focus on the individual students and deliver the most value for them.</p>
+
+            <h3>Next Steps</h3>
+            <p>Click <b><a href="https://drive.google.com/file/d/0B42eM8-qY57-c2p3a0Zia24xTW8/view" target="_blank">here</a></b> to read the program summary. <br/>For any further questions or to sign up for the program contact <span><script>
+              document.write('<A href="mailto:' + coachEmail + '">'+ coachEmail + '</a>')</script></span>
+            </p>
+            <p></p>
+            <p></p>
+            <p></p>
+          </div><!--/col-md-8-->
+        </div><!--/row-->
+      </div><!--/.container-->
+
+    </div><!-- portfolio container -->
+
+
+    <!-- COACHING -->
+    <div>
+      <div class="container ptb">
+        <div class="row centered">
+          <h2>About</h2>
+          <div class="col-md-8 col-md-offset-2">
+          <p>
+          Fully certified Enterprise Architect with +6 years experience of delivering innovative Salesforce solutions across various industries such as retail, pharma and finance. Technical Leader with background in business and sales engineering and the ability to manage project teams, stakeholders and expectations ranging from C-Level to End Users.
+
+          <h3>How To Get In Touch</h3>
+          <span><script>
+              document.write('<A href="mailto:' + coachEmail + '">'+ coachEmail + '</a>')</script>
+          </span><br/>          
+          <a href="https://linkedIn.com/in/se6wagner">LinkedIn</a><br/>
+          <a href="https://twitter.com/se6wagner">Twitter</a><br/>
+
+          </p>
+          </div><!--/col-md-8-->
+        </div><!--/row-->
+      </div><!--/.container-->
+
+    </div><!-- portfolio container -->
+
+
+
+    <!--
+    <div id="f">
+      <div class="container">
+        <div class="row centered">
+          <div class="col-md-8 col-md-offset-2">
+            <a href="#"><i class="ion-social-twitter"></i></a>
+            <a href="#"><i class="ion-social-dribbble"></i></a>
+            <a href="#"><i class="ion-social-instagram"></i></a>
+            <a href="#"><i class="ion-social-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </div><!--/.F-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina-1.1.0.js"></script>
+    <script src="assets/js/jquery.hoverdir.js"></script>
+    <script src="assets/js/jquery.hoverex.min.js"></script>
+    <script src="assets/js/jquery.prettyPhoto.js"></script>
+    <script src="assets/js/jquery.isotope.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+
+    <script>
+// Portfolio
+(function($) {
+  "use strict";
+  var $container = $('.portfolio'),
+    $items = $container.find('.portfolio-item'),
+    portfolioLayout = 'fitRows';
+    
+    if( $container.hasClass('portfolio-centered') ) {
+      portfolioLayout = 'masonry';
+    }
+        
+    $container.isotope({
+      filter: '*',
+      animationEngine: 'best-available',
+      layoutMode: portfolioLayout,
+      animationOptions: {
+      duration: 750,
+      easing: 'linear',
+      queue: false
+    },
+    masonry: {
+    }
+    }, refreshWaypoints());
+    
+    function refreshWaypoints() {
+      setTimeout(function() {
+      }, 1000);   
+    }
+        
+    $('nav.portfolio-filter ul a').on('click', function() {
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector }, refreshWaypoints());
+        $('nav.portfolio-filter ul a').removeClass('active');
+        $(this).addClass('active');
+        return false;
+    });
+    
+    function getColumnNumber() { 
+      var winWidth = $(window).width(), 
+      columnNumber = 1;
+    
+      if (winWidth > 1200) {
+        columnNumber = 5;
+      } else if (winWidth > 950) {
+        columnNumber = 4;
+      } else if (winWidth > 600) {
+        columnNumber = 3;
+      } else if (winWidth > 400) {
+        columnNumber = 2;
+      } else if (winWidth > 250) {
+        columnNumber = 1;
+      }
+        return columnNumber;
+      }       
+      
+      function setColumns() {
+        var winWidth = $(window).width(), 
+        columnNumber = getColumnNumber(), 
+        itemWidth = Math.floor(winWidth / columnNumber);
+        
+        $container.find('.portfolio-item').each(function() { 
+          $(this).css( { 
+          width : itemWidth + 'px' 
+        });
+      });
+    }
+    
+    function setPortfolio() { 
+      setColumns();
+      $container.isotope('reLayout');
+    }
+      
+    $container.imagesLoaded(function () { 
+      setPortfolio();
+    });
+    
+    $(window).on('resize', function () { 
+    setPortfolio();          
+  });
+})(jQuery);
+</script>
+  </body>
 </html>
